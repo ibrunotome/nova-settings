@@ -9,7 +9,7 @@
   "require": {
     "php": "^7.2.0|^8.0.2",
     "laravel/nova": "^3.0",
-    "optimistdigital/nova-translations-loader": "^3.0"
+    "optimistdigital/nova-translations-loader": "dev-patch-1"
   },
   "require-dev": {
     "orchestra/testbench": "^5.0|^6.0",
@@ -50,6 +50,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/laravel/nova-dusk-suite"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ibrunotome/nova-translations-loader.git"
     }
   ],
   "scripts": {
